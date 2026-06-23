@@ -116,8 +116,8 @@ label {
 .bg-light-lavander {
   background-color: #e0e7ff;
 }
-.bg-semidark-lavander{
-  background-color: #4F39F6;
+.bg-semidark-lavander {
+  background-color: #4f39f6;
 }
 nav#navBar {
   z-index: 1000;
@@ -1340,8 +1340,9 @@ footer#footer .top .social i:hover {
 }
 @media (max-width: 1200px) {
   .drop-menu {
-    width: 100%;
-    left: 0 !important;
+    width: 983px;
+
+    left: -583px !important;
     padding: 24px !important;
     overflow: auto !important;
   }
@@ -1401,6 +1402,11 @@ footer#footer .top .social i:hover {
 
     z-index: 3326;
   }
+  ul.navbar-nav {
+
+    overflow: auto !important;
+  }
+
   #services .item .image img {
     height: 92%;
   }
